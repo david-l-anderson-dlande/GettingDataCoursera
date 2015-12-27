@@ -29,9 +29,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ================================
 
-The included script combines both the test and training data into one datatable.
 
-After this, the data for mean and standard deviation were subsetted, and the variable names cleaned up.
 
  "timebodyaccmeanx"           
  "timebodyaccmeany"          
@@ -102,7 +100,3 @@ After this, the data for mean and standard deviation were subsetted, and the var
  "activityname"               
  "subjectid"  
  
-Finally, it is split into groups by activityname and subjectid, and the final tidy data is written to a text file.
-
-If you want to read in the final tidy data, simply:
-    finaltidytable <- read.table("finaltidydata")
